@@ -79,8 +79,7 @@ input{
 }
 #bottom{
 	min-width: 800px;
-	border: solid green 5px;
-	height: 80px;
+	height: 82px;
 	position: fixed;
 	display: flex;
 	flex-direction: column;
@@ -89,9 +88,10 @@ input{
 	width: 100%;
 }
 #state{
-	border: solid red 1px;
+	border: solid lightgrey 1px;
 	width: 100%;
 	height: 50%;
+	font-size: 15px;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -101,18 +101,16 @@ input{
 	align-items: center;
 }
 #neverclicked{
-	border: solid blue 1px;
 	width: 100%;
 	height: 50%;
 	display: flex;
-	font-size: 12px;
+	font-size: 13px;
 	flex-direction: row;
 	background-color: whitesmoke;
 	justify-content: space-around;
 	align-items: center;
 }
 #leftelement{
-	border: solid violet 1px;
 	width: 50%;
 	min-width: 400px;
 	display: flex;
@@ -121,7 +119,6 @@ input{
 	justify-content: flex-start;
 }
 #rightelement{
-	border: solid grey 1px;
 	width: 50%;
 	min-width: 400px;
 	display: flex;
@@ -130,10 +127,8 @@ input{
 	justify-content: flex-end;
 }
 .element1{
-	border: solid orange 1px;
 	margin-left: 30px;
 }
 .element2{
-	border: solid black 1px;
 	margin-right: 30px;
 }
