@@ -57,6 +57,7 @@ input{
 	border: solid 1px lightgrey;
 	background: url(loupe.png) 12px;
 	background-repeat: no-repeat;
+	outline: none;
 }
 #buttons{
 	min-width: 800px;
